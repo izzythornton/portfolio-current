@@ -1,4 +1,9 @@
 <!DOCTYPE html>
+<!-- This is an in-progress portfolio that will be updated as I complete the web development track with bloc.io.-->
+<!-- TO DO:
+    - Add nav bar below the header that includes contact links and links to different page sections 
+    - Create a contact form
+    - Make it pretty! -->
 <html>
     <head>
         <meta charset="utf-8">
@@ -9,21 +14,37 @@
 
     <body>
         <header>
-            <h1>Izzy Thornton</h1>
-            <h2>Web Developer</h2>
+            <section class="background-dark">
+                <!-- Contact Info (to be added to nav bar) -->
+                <div class="group">
+                    <div class="item item-width-primary">
+                        <h1>Izzy Thornton</h1>
+                        <h2>Web Developer</h2>
+                    </div>
+                    <div class="item">
+                        <a href="https://github.com/izzythornton"><img class="no-border icon" src="images/github.png" /></a>
+                        <a href="https://www.linkedin.com/in/isabellethornton/"><img class="no-border icon" src="images/linkedin.png" /></a>
+                    </div>
+                </div>
+            </section>
         </header>
+        <hr>
         <main>
             <section>
+                <!-- Introducing myself and the services I offer-->
                 <div class="group">
-                    <div class="item item-double-width left-align border">
+                    <div class="item">
+                        <img src="images/me.jpeg" />
+                    </div>
+                    <div class="item item-double-width">
                         <h3 class="left-align">Hi, I'm Izzy.</h3>
                         <p>I'm a web development student at Bloc.io based in Mountlake Terrace, WA. I have a passion for people, software, and the ways they work together.</p>
                     </div>
-                    <div class="item item-double-width left-align border">
+                    <div class="item item-double-width">
                         <h3 class="left-align">Why Web Development?</h3>
                         <p>Simple! I'm fascinated by the web and the way it brings people together and improves our lives. I love people, both helping them and working with them, and I want to make my mark on the world through web development.</p>
                     </div>
-                    <div class="item left-align border">
+                    <div class="item bg-dark">
                         <h3>Services</h3>
                         <ul>
                             <li>Frontend Engineering</li>
@@ -33,7 +54,9 @@
                     </div>
                 </div>
             </section>
+            <hr>
             <section class="bg-dark">
+                <!-- Example work (to be updated as I have projects to share) -->
                 <h2>My Work</h2>
                 <div class="group">
                     <div class="item">
@@ -67,18 +90,8 @@
                     </div>
                 </div>
             </section>
-            <section class="background-dark">
-                <div class="group narrow-width">
-                    <div class="item">
-                        <a href="mailto:isabelle.thornton@outlook.com"><img class="no-border icon" src="images/email.png" /></a>
-                    </div>
-                    <div class="item">
-                        <a href="https://github.com/izzythornton"><img class="no-border icon" src="images/github.png" /></a>
-                    </div>
-                    <div class="item">
-                        <a href="https://www.linkedin.com/in/isabellethornton/"><img class="no-border icon" src="images/linkedin.png" /></a>
-                    </div>
-                </div>
+            <section>
+                <h3>Get In Touch</h3>
             </section>
         </main>
     </body>

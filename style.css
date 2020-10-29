@@ -3,22 +3,24 @@ html {
 }
 
 main {
-    padding: 10px;
+
     font-family: Lucida, sans-serif;
     text-align: center;
 }
 
 header {
+    background-image: url(images/mountains.jpeg);
+    background-position: left;
+    background-size: cover;
     margin: 0px;
-    background-image: url(images/papyrus-dark.png);
-    color: white;
-    opacity: 90%;
-    border: 10px solid black;
+    color: black;
+    text-shadow: 0 0 10px white;
     text-align: center;
+    opacity: 90%;
 }
 
 section {
-    margin-bottom: 30px;
+    margin: 10px;
 }
 
 h1, h2, h3 {
@@ -46,22 +48,18 @@ ul {
 }
 
 img {
-    width: auto;
-    height: 150px;
-    border: 1px solid black;
+    max-width: 100%;
+    height: auto;
     margin: 0px;
+    padding: 0px;
     align-items: center;
 }
 
-section.bg-dark {
-    background-image: url(images/papyrus-dark.png);
+.bg-dark {
+    background-image: url(images/darkness.png);
     opacity: 75%;
     color: white;
     padding-top: 25px;
-}
-
-.left-align {
-    text-align: center;
 }
 
 .group {
@@ -72,11 +70,7 @@ section.bg-dark {
 .item {
     flex: 1;
     margin: 10px;
-    padding: 10px;
-}
-
-.border {
-    border: 10px solid white;
+    padding: 0px;
 }
 
 .item-double-width {
@@ -85,6 +79,10 @@ section.bg-dark {
 
 .item-triple-width {
     flex: 3;
+}
+
+.item-width-primary {
+    flex: 5;
 }
 
 img.no-border {
@@ -102,9 +100,7 @@ img.icon {
     .group {
         flex-flow: row wrap;
     }
-    .left-align {
-        text-align: left;
-    }
+
     .narrow-width {
         width: 25%;
     }
