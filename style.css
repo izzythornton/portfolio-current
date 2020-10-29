@@ -1,0 +1,95 @@
+html {
+    background-image: url(images/papyrus.png);
+}
+
+main {
+    padding: 10px;
+    font-family: Lucida, sans-serif;
+    text-align: center;
+}
+
+section {
+    margin-bottom: 30px;
+}
+
+h1, h2, h3 {
+    font-family: Courier New, monospace;
+}
+
+h1 {
+    font-size: 50px;
+    margin-bottom: 0px;
+    text-transform: uppercase;
+}
+
+h2 {
+    font-size: 30px;
+    margin-top: 0px;
+}
+
+h3 {
+    font-size: 20px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0px;
+}
+
+img {
+    width: auto;
+    max-height: 150px;
+    border: 5px solid black;
+    margin: 0px;
+}
+
+section.bg-dark {
+    background-image: url(images/darkness.png);
+    opacity: 75%;
+    color: white;
+}
+
+.left-align {
+    text-align: center;
+}
+
+.group {
+    display: flex;
+    flex-direction: column;
+}
+
+.item {
+    flex: 1;
+    margin: 10px;
+}
+
+.item-double-width {
+    flex: 2;
+}
+
+.item-triple-width {
+    flex: 3;
+}
+
+img.no-border {
+    border: 0px;
+}
+
+img.icon {
+    max-height: 50px;
+}
+
+@media all and (min-width: 800px) {
+    section {
+        padding: 0;
+    }
+    .group {
+        flex-direction: row;
+    }
+    .left-align {
+        text-align: left;
+    }
+    .narrow-width {
+        width: 25%;
+    }
+}
