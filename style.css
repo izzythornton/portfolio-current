@@ -18,7 +18,7 @@ header {
     text-align: center;
 }
 
-/* NAVIGATION */
+/* RESPONSIVE NAVIGATION */
 nav {
     display: flex;
     justify-content: center;
@@ -152,7 +152,7 @@ img.icon {
     padding-top: 25px;
 }
 
-/* FOR LARGE SCREENS */
+/* FOR LARGE SCREENS - RESPONSIVE DESIGN */
 @media all and (min-width: 800px) {
     section {
         padding: 0;
